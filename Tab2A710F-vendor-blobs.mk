@@ -150,6 +150,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/aee:system/bin/aee \
     $(LOCAL_PATH)/proprietary/system/bin/aee_archive:system/bin/aee_archive \
     $(LOCAL_PATH)/proprietary/system/bin/aee_dumpstate:system/bin/aee_dumpstate \
+    $(LOCAL_PATH)/proprietary/system/bin/thermal:system/bin/thermal \
+    $(LOCAL_PATH)/proprietary/system/bin/boot_logo_updater:system/bin/boot_logo_updater \
+    $(LOCAL_PATH)/proprietary/system/bin/sbchk:system/bin/sbchk \
+    $(LOCAL_PATH)/proprietary/system/bin/guiext-server:system/bin/guiext-server \
+    $(LOCAL_PATH)/proprietary/system/bin/em_svr:system/bin/em_svr \
     $(LOCAL_PATH)/proprietary/system/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
     $(LOCAL_PATH)/proprietary/system/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
     $(LOCAL_PATH)/proprietary/system/lib/libmtk_mmutils.so:system/lib/libmtk_mmutils.so \
