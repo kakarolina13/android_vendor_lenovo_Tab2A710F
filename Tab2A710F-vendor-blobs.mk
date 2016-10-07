@@ -50,10 +50,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.mt8127.so:system/lib/hw/camera.mt8127.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/power.default.so:system/lib/hw/power.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.mt8127.so:system/lib/hw/sensors.mt8127.so \
