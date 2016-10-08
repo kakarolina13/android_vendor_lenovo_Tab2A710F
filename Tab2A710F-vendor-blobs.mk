@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/bin/akmd09911:system/bin/akmd09911 \
     $(LOCAL_PATH)/proprietary/system/bin/akmd8963:system/bin/akmd8963 \
     $(LOCAL_PATH)/proprietary/system/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
-    $(LOCAL_PATH)/proprietary/system/bin/factory:system/bin/factory \
     $(LOCAL_PATH)/proprietary/system/bin/kisd:system/bin/kisd \
     $(LOCAL_PATH)/proprietary/system/bin/kpoc_charger:system/bin/kpoc_charger \
     $(LOCAL_PATH)/proprietary/system/bin/meta_tst:system/bin/meta_tst \
@@ -50,12 +49,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.r_submix.default.so:system/lib/hw/audio.r_submix.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/camera.mt8127.so:system/lib/hw/camera.mt8127.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gralloc.mt8127.so:system/lib/hw/gralloc.mt8127.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/hwcomposer.mt8127.so:system/lib/hw/hwcomposer.mt8127.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/power.default.so:system/lib/hw/power.default.so \
     $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.mt8127.so:system/lib/hw/sensors.mt8127.so \
@@ -176,11 +173,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
     $(LOCAL_PATH)/proprietary/system/lib/libbluetoothdrv.so:system/lib/libbluetoothdrv.so \
     $(LOCAL_PATH)/proprietary/system/lib/libwapi.so:system/lib/libwapi.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+    $(LOCAL_PATH)/proprietary/system/bin/logwrapper:system/bin/logwrapper \
+    $(LOCAL_PATH)/proprietary/system/bin/ipod:system/bin/ipod \
+    $(LOCAL_PATH)/proprietary/system/lib/libfmmt6620.so:system/lib/libfmmt6620.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libcurl.so:system/lib/libcurl.so \
+    $(LOCAL_PATH)/proprietary/system/lib/libmnl.so:system/lib/libmnl.so \
     $(LOCAL_PATH)/proprietary/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/proprietary/system/vendor/app/Ds/Ds.apk:system/vendor/app/Ds/Ds.apk \
     $(LOCAL_PATH)/proprietary/system/vendor/app/DsUI/DsUI.apk:system/vendor/app/DsUI/DsUI.apk \
     $(LOCAL_PATH)/proprietary/system/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    $(LOCAL_PATH)/proprietary/system/etc/media_codecs.xml:system/etc/media_codecs.xml \
     $(LOCAL_PATH)/proprietary/system/vendor/etc/dolby/ds1-default.xml:system/vendor/etc/dolby/ds1-default.xml \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
