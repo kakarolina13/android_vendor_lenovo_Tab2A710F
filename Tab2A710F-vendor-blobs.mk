@@ -143,7 +143,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
     $(LOCAL_PATH)/proprietary/system/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/system/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
-    $(LOCAL_PATH)/proprietary/system/lib/libwpa_client.so:system/lib/libwpa_client.so \
     $(LOCAL_PATH)/proprietary/system/lib/libmp2dec_sa.ca7.so:system/lib/libmp2dec_sa.ca7.so \
     $(LOCAL_PATH)/proprietary/system/bin/aee_core_forwarder:system/bin/aee_core_forwarder \
     $(LOCAL_PATH)/proprietary/system/bin/aee:system/bin/aee \
